@@ -22,7 +22,7 @@ CREATE TABLE treatments (
 );
 
 -- many-to-many table btw medical-histories and trearments
-CREATE TABLE trearment_histories (
+CREATE TABLE treatment_histories (
   medical_histoy__id INT,
   treatment_id INT,
   PRIMARY KEY (medical_histoy__id, treatment_id),
